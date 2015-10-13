@@ -1,3 +1,3 @@
-exports = {
+module.exports = {
   stage: 1,
 }
