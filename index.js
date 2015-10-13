@@ -1,0 +1,1 @@
+exports.babel = require('./babel');

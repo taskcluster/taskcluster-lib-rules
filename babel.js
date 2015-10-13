@@ -1,0 +1,3 @@
+exports = {
+  stage: 1;
+}
