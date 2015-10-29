@@ -1,6 +1,6 @@
 {
-  "name": "tc-rules",
-  "version": "1.0.6",
+  "name": "taskcluster-lib-rules",
+  "version": "1.0.7",
   "description": "Rules shared by tools used by taskcluster",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,5 @@
     "url": "git+https://github.com/taskcluster/taskcluster-lib-rules.git"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": { "url": "https://github.com/taskcluster/taskcluster-lib-rules/issues"
-  },
-  "homepage": "https://github.com/taskcluster/taskcluster-lib-rules#readme"
+  "license": "MPL-2"
 }
