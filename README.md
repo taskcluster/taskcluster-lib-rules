@@ -3,6 +3,7 @@ TaskCluster Javascript Rules
 
 This repository contains various rules for taskcluster node components.
 Intended to be used with modules such as `babel-compile` and `eslint`.
+For efficiency we've named the package `tc-rules` to keep the name short.
 
 Example:
 ```js
@@ -11,7 +12,7 @@ Example:
   "version": "...",
   "license": "MPL-2.0",
   "scripts": {
-    "compile": "babel-compile -c taskcluster-lib-rules/babel src:lib test:.test",
+    "compile": "babel-compile -c tc-rules/babel src:lib test:.test",
     "prepublish": "npm run compile",
     "pretest": "npm run compile",
   },
@@ -21,7 +22,7 @@ Example:
   "devDependencies": {
     "babel-compile": "^0.0.3",
     "mocha": "^2.0.1",
-    "taskcluster-lib-rules": "^1.0.6"
+    "tc-rules": "^1.0.6"
   },
   ...
 }
