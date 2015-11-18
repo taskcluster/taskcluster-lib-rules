@@ -1,6 +1,6 @@
 {
   "name": "tc-rules",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Rules shared by tools used by taskcluster",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,14 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": { "url": "https://github.com/taskcluster/taskcluster-lib-rules/issues"
+  "bugs": {
+    "url": "https://github.com/taskcluster/taskcluster-lib-rules/issues"
   },
-  "homepage": "https://github.com/taskcluster/taskcluster-lib-rules#readme"
+  "homepage": "https://github.com/taskcluster/taskcluster-lib-rules#readme",
+  "peerDependencies": {
+    "eslint": "^1.9.0",
+    "babel-plugin-transform-runtime": "^6.1.18",
+    "babel-preset-stage-1": "^6.1.18",
+    "babel-eslint": "^4.1.5"
+  }
 }
