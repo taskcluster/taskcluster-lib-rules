@@ -1,1 +1,1 @@
-exports.babel = require('./babel');
+module.exports = require('./babel');

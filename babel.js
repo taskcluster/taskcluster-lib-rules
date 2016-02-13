@@ -1,6 +1,10 @@
 module.exports = {
-  stage: 1,
-  optional: [
-    'runtime',
+  presets: [
+    'es2015',
+  ],
+  plugins: [
+    'syntax-async-functions',
+    'transform-runtime',
+    'transform-strict-mode',
   ],
 }
