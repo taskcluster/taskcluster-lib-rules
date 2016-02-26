@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     'syntax-async-functions',
     'transform-runtime',
+    'transform-async-to-generator',
     'transform-strict-mode',
   ],
 }

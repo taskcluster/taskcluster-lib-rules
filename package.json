@@ -1,6 +1,6 @@
 {
   "name": "tc-rules",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Rules shared by tools used by taskcluster",
   "main": "index.js",
   "scripts": {
