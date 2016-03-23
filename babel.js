@@ -7,5 +7,6 @@ module.exports = {
     'transform-runtime',
     'transform-async-to-generator',
     'transform-strict-mode',
+    'syntax-trailing-function-commas'
   ],
 }
